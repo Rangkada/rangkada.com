@@ -27,7 +27,7 @@ const AlphaPartnersHero = () => {
           quality={100}
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/70 to-transparent" />
         
         {/* Content Overlay */}
         <div className="absolute inset-0 flex items-end">
@@ -41,16 +41,15 @@ const AlphaPartnersHero = () => {
               </div>
               
               {/* Headline */}
-              <h1 className="mb-6 text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-white leading-[1.05]">
-                Join the revolution.
+              <h1 className="mb-6 text-5xl md:text-7xl lg:text-6xl font-light tracking-tight text-white leading-[1.05]">
+                Be part of the EV Network.
                 <br />
-                <span className="font-normal">Shape the future.</span>
+                <span className="font-semibold">Shape the Future. Reap the Rewards.</span>
               </h1>
 
               {/* Subheadline */}
               <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-300 leading-relaxed max-w-3xl mb-12">
-                Transform your fleet with zero upfront investment and guaranteed savings. 
-                Limited founding partner slots available.
+                Exclusive for visionary fleet operators and charging station hosts who want to co-create the future of electric mobility.
               </p>
 
               {/* CTA */}
