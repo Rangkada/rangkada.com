@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://rangkada.com/terms",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada Terms and Conditions",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Terms and Conditions | Rangkada",
     description: "Rangkada Terms of Service and Terms of Use for Electric Fleet Solutions",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
     canonical: "https://rangkada.com/terms",

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     url: "https://rangkada.com/vision",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada - Building the Future of Philippine EV Manufacturing",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Vision - Building the Future of Philippine EV Manufacturing | Rangkada",
     description: "Discover Rangkada's three-phase strategy: from fleet operator to leading EV manufacturer.",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
     canonical: "https://rangkada.com/vision",

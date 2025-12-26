@@ -24,7 +24,7 @@ const Footer = () => {
               className={`flex items-center gap-3 transition-all duration-300 mb-4`}
             >
               <Image
-                src="/images/logo/RANGKADA-square-white-bg.png"
+                src="/images/logo/RANGKADA-white-bg-round.png"
                 alt="RANGKADA Logo"
                 width={42}
                 height={42}

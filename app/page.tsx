@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     locale: "en_PH",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada - Electric Fleet Solutions Philippines",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rangkada | Electric Fleet Solutions Philippines",
     description: "Transform your fleet with Pay-As-You-Save electric vehicles. Zero upfront cost, guaranteed savings from day one.",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
 };
 

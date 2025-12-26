@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Page Not Found | Rangkada",
     description: "The page you're looking for cannot be found.",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
 };
 

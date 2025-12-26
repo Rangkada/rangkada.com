@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     url: "https://rangkada.com/privacy",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada Privacy Policy",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Privacy Policy | Rangkada",
     description: "Rangkada Privacy Policy for Electric Fleet Solutions",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
     canonical: "https://rangkada.com/privacy",

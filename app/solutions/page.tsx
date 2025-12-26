@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     url: "https://rangkada.com/solutions",
     images: [
       {
-        url: "/images/logo/RANGKADA-logo-horizontal.png",
+        url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
         alt: "Rangkada - Complete Fleet Solutions",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Complete Fleet Solutions | Rangkada",
     description: "Pay-As-You-Save financing, data-driven vehicles, PowerSwap network, and FleetOS management platform.",
-    images: ["/images/logo/RANGKADA-logo-horizontal.png"],
+    images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
     canonical: "https://rangkada.com/solutions",
