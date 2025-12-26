@@ -22,7 +22,7 @@ const gemunuLibre = Gemunu_Libre({
 export const metadata: Metadata = {
   metadataBase: new URL('https://rangkada.com'),
   title: {
-    default: "Rangkada | Electric Fleet Solutions Philippines",
+    default: "Rangkada | Electric Vehicle Ecosystem",
     template: "%s | Rangkada"
   },
   description: "Transform your fleet with Rangkada's Pay-As-You-Save electric vehicles. Zero upfront cost, 50% guaranteed savings on fuel costs.",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
-        alt: "Rangkada - Electric Fleet Solutions Philippines",
+        alt: "Rangkada - Electric Vehicle Ecosystem",
       },
     ],
   },

@@ -2,10 +2,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Rangkada",
-  description: "Rangkada Privacy Policy for Electric Fleet Solutions",
+  description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
   openGraph: {
     title: "Privacy Policy | Rangkada",
-    description: "Rangkada Privacy Policy for Electric Fleet Solutions",
+    description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
     type: "website",
     url: "https://rangkada.com/privacy",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Privacy Policy | Rangkada",
-    description: "Rangkada Privacy Policy for Electric Fleet Solutions",
+    description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
@@ -62,7 +62,7 @@ const Privacy = () => {
               </h2>
               <div className="space-y-4 text-lg font-light text-gray-600 leading-relaxed">
                 <p>
-                  At Rangkada Pte. Ltd. ("Rangkada," "we," "us," or "our"), we recognize that privacy is of paramount importance and are committed to maintaining it. This Privacy Policy explains how we collect, use, disclose, and protect your personal information through our electric fleet solutions platform and services.
+                  At Rangkada Pte. Ltd. ("Rangkada," "we," "us," or "our"), we recognize that privacy is of paramount importance and are committed to maintaining it. This Privacy Policy explains how we collect, use, disclose, and protect your personal information through our Electric Vehicle Ecosystem platform and services.
                 </p>
                 <p>
                   By accessing or using our Services, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy. If you do not agree with any part of this policy, please do not use our Services.
@@ -209,7 +209,7 @@ const Privacy = () => {
                 <ul className="space-y-3 pl-6">
                   <li className="flex items-start gap-3">
                     <span className="text-gray-400 mt-2">•</span>
-                    <span><span className="font-normal text-gray-900">Service Delivery:</span> To provide, maintain, and improve our electric fleet solutions and fleet management platform</span>
+                    <span><span className="font-normal text-gray-900">Service Delivery:</span> To provide, maintain, and improve our Electric Vehicle Ecosystem and fleet management platform</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-gray-400 mt-2">•</span>

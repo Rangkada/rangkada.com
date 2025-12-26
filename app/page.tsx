@@ -8,12 +8,12 @@ import AlphaPartnersApplyCTA from "@/components/AlphaPartners/AlphaPartnersApply
 import TalkToUs from "@/components/TalkToUs";
 
 export const metadata: Metadata = {
-  title: "Rangkada | Electric Fleet Solutions Philippines | Pay-As-You-Save EV",
+  title: "Rangkada | Electric Vehicle Ecosystem | Pay-As-You-Save EV",
   description: "Transform your fleet with Rangkada's Pay-As-You-Save electric vehicles. Zero upfront cost, 50% guaranteed savings, complete fleet solutions for Philippine businesses. E-trikes and e-motorcycles designed for local conditions.",
   keywords: "electric vehicles Philippines, EV fleet management, Pay-As-You-Save, e-trike, e-motorcycle, commercial EV, fleet electrification, sustainable transportation Philippines, electric tricycle, electric motorcycle",
   openGraph: {
-    title: "Rangkada | Electric Fleet Solutions Philippines",
-    description: "Zero upfront investment. 50% guaranteed savings. Complete electric fleet solutions designed for the Philippine market.",
+    title: "Rangkada | Electric Vehicle Ecosystem",
+    description: "Zero upfront investment. 50% guaranteed savings. Complete Electric Vehicle Ecosystem designed for the Philippine market.",
     type: "website",
     locale: "en_PH",
     images: [
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
         url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
-        alt: "Rangkada - Electric Fleet Solutions Philippines",
+        alt: "Rangkada - Electric Vehicle Ecosystem",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rangkada | Electric Fleet Solutions Philippines",
+    title: "Rangkada | Electric Vehicle Ecosystem",
     description: "Transform your fleet with Pay-As-You-Save electric vehicles. Zero upfront cost, guaranteed savings from day one.",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },

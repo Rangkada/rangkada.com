@@ -39,7 +39,7 @@ const HomeHero = () => {
               {/* Badge */}
               <div className="mb-10">
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-500">
-                  Electric Fleet Solutions
+                  Electric Vehicle Ecosystem
                 </span>
               </div>
 

@@ -37,7 +37,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-base font-light text-gray-400 leading-relaxed mb-8 max-w-sm">
-              Transforming Philippine transportation with electric fleet solutions. 
+              Transforming Philippine transportation with Electric Vehicle Ecosystem. 
               Zero upfront investment. Guaranteed savings.
             </p>
             <div className="flex items-center gap-6">
