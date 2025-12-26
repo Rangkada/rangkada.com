@@ -48,18 +48,17 @@ const AlphaPartnersContent = () => {
         </div>
       </section>
 
-      {/* What You Get vs What We Need - Side by Side */}
       <section className="bg-black text-white py-24 md:py-32 lg:py-40">
         <div className="container">
           <div className="mx-auto max-w-7xl">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
-              {/* What You Get */}
+              {/* For Fleet Operators */}
               <div>
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-500 mb-8">
-                  What You Get
+                  Fleet Management System
                 </span>
                 <h3 className="text-3xl md:text-4xl font-light text-white mb-12 leading-tight">
-                  The benefits
+                  For Fleet Operators
                 </h3>
                 
                 <div className="space-y-8">
@@ -68,9 +67,9 @@ const AlphaPartnersContent = () => {
                       <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-light text-white mb-2">Pay-As-You-Save Model</h4>
+                      <h4 className="text-lg font-light text-white mb-2">Product Influence</h4>
                       <p className="text-base font-light text-gray-500 leading-relaxed">
-                        Weekly fees 50% less than current fuel costs. Guaranteed savings from day one.
+                        Direct input on fleet dashboard features, route planning, and reporting tools.
                       </p>
                     </div>
                   </div>
@@ -80,9 +79,9 @@ const AlphaPartnersContent = () => {
                       <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-light text-white mb-2">5-10 Electric Vehicles</h4>
+                      <h4 className="text-lg font-light text-white mb-2">Exclusive Pricing</h4>
                       <p className="text-base font-light text-gray-500 leading-relaxed">
-                        Designed for Philippine conditions, integrated into your fleet for 3 months.
+                        Lifetime discount on fleet subscription fees.
                       </p>
                     </div>
                   </div>
@@ -92,9 +91,9 @@ const AlphaPartnersContent = () => {
                       <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-light text-white mb-2">Product Advisory Board</h4>
+                      <h4 className="text-lg font-light text-white mb-2">Priority Support</h4>
                       <p className="text-base font-light text-gray-500 leading-relaxed">
-                        Permanent seat to co-design vehicles that power Philippine commerce.
+                        Dedicated Slack channel or direct line to founding team for technical & operational support.
                       </p>
                     </div>
                   </div>
@@ -104,43 +103,68 @@ const AlphaPartnersContent = () => {
                       <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-light text-white mb-2">EVIDA Compliance</h4>
+                      <h4 className="text-lg font-light text-white mb-2">Marketing & Recognition</h4>
                       <p className="text-base font-light text-gray-500 leading-relaxed">
-                        Meet government mandates while securing supply and competitive positioning.
+                        Featured case study and "Founding Fleet Partner" badge for your marketing.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-6 group">
+                    <div className="flex-shrink-0 w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center group-hover:border-white transition-colors">
+                      <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-light text-white mb-2">Future Priority</h4>
+                      <p className="text-base font-light text-gray-500 leading-relaxed">
+                        First access to new features like smart charging, V2G, and energy management tools.
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* What We Need */}
               <div>
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-500 mb-8">
-                  What We Need
+                  Charge Point Management System
                 </span>
                 <h3 className="text-3xl md:text-4xl font-light text-white mb-12 leading-tight">
-                  The commitment
+                  For Charging Station Hosts
                 </h3>
                 
                 <div className="space-y-8">
                   <div className="border-l border-gray-800 pl-8 hover:border-gray-600 transition-colors">
-                    <h4 className="text-lg font-light text-white mb-2">Integrate & Operate</h4>
+                    <h4 className="text-lg font-light text-white mb-2">Product Influence</h4>
                     <p className="text-base font-light text-gray-500 leading-relaxed">
-                      Provide drivers and integrate vehicles into your existing routes.
+                      Direct input on station management, analytics, pricing controls, and owner reporting.
                     </p>
                   </div>
 
                   <div className="border-l border-gray-800 pl-8 hover:border-gray-600 transition-colors">
-                    <h4 className="text-lg font-light text-white mb-2">Share Your Experience</h4>
+                    <h4 className="text-lg font-light text-white mb-2">Reduced Fees</h4>
                     <p className="text-base font-light text-gray-500 leading-relaxed">
-                      Participate in regular feedback sessions to help us perfect the product.
+                      Dramatically reduced platform transaction fees.
                     </p>
                   </div>
 
                   <div className="border-l border-gray-800 pl-8 hover:border-gray-600 transition-colors">
-                    <h4 className="text-lg font-light text-white mb-2">Commit to Excellence</h4>
+                    <h4 className="text-lg font-light text-white mb-2">Dedicated Support</h4>
                     <p className="text-base font-light text-gray-500 leading-relaxed">
-                      Help us build vehicles that will transform Philippine transportation.
+                      Same dedicated support channel for installation and management issues.
+                    </p>
+                  </div>
+
+                  <div className="border-l border-gray-800 pl-8 hover:border-gray-600 transition-colors">
+                    <h4 className="text-lg font-light text-white mb-2">Preferred Location</h4>
+                    <p className="text-base font-light text-gray-500 leading-relaxed">
+                      Listed as a "Preferred Charging Location" on the platform map and in fleet communications.
+                    </p>
+                  </div>
+
+                  <div className="border-l border-gray-800 pl-8 hover:border-gray-600 transition-colors">
+                    <h4 className="text-lg font-light text-white mb-2">Future Priority</h4>
+                    <p className="text-base font-light text-gray-500 leading-relaxed">
+                      First right to opt into future premium programs (e.g., demand response, grid services).
                     </p>
                   </div>
                 </div>
