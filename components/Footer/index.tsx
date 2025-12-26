@@ -21,17 +21,17 @@ const Footer = () => {
           <div className="lg:col-span-5">
             <Link
               href="/"
-              className={`flex items-center gap-3 transition-all duration-300`}
+              className={`flex items-center gap-3 transition-all duration-300 mb-4`}
             >
               <Image
-                src="/images/logo/RANGKADA-logo-white.svg"
+                src="/images/logo/RANGKADA-square-white-bg.png"
                 alt="RANGKADA Logo"
                 width={42}
                 height={42}
-                className="h-10 w-10 mr-2"
+                className="h-8 w-8 rounded-full"
               />
               <span
-                className={`font-gemunu text-md tracking-[0.8em] transition-colors "text-white hover:text-gray-300"`}
+                className={`font-gemunu font-semibold text-2xl tracking-[0.5em] transition-colors "text-white hover:text-gray-300"`}
               >
                 RANGKADA
               </span>
