@@ -19,11 +19,10 @@ const HomeHero = () => {
       {/* Background Image - Desktop */}
       <div className="hidden lg:block absolute inset-0">
         <Image
-          src="/images/hero/motorbike-slick-dark-bg-2.png"
+          src="/images/backgrounds/green-landscape-and-truck.jpg"
           alt="Electric Vehicle"
           fill
           className="opacity-80"
-          style={{ objectFit: 'contain', objectPosition: 'calc(0% + 110px) center' }}
           priority
           quality={100}
         />
