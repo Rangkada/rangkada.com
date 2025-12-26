@@ -21,11 +21,10 @@ const AlphaPartnersContent = () => {
                 The Opportunity
               </span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-gray-900 leading-[1.1] mb-12 max-w-4xl mx-auto">
-                A once-in-a-generation<br />opportunity
+                Build the Foundation of the Electric Future
               </h2>
               <p className="text-xl md:text-2xl font-light text-gray-700 leading-relaxed max-w-3xl mx-auto">
-                The window closes in 2025. Government mandates are driving the EV revolution. 
-                Early adopters will secure supply, build expertise, and lock in competitive advantages.
+                Join our exclusive Alpha Partner Program. Co-create the network that powers tomorrow's fleets and gain lasting strategic advantages.
               </p>
             </div>
 
@@ -40,7 +39,7 @@ const AlphaPartnersContent = () => {
                 <div className="text-sm tracking-wide text-gray-600 uppercase">Upfront Investment</div>
               </div>
               <div className="bg-white p-12 text-center">
-                <div className="text-5xl md:text-6xl font-light text-gray-900 mb-4">3</div>
+                <div className="text-5xl md:text-6xl font-light text-gray-900 mb-4">6</div>
                 <div className="text-sm tracking-wide text-gray-600 uppercase">Month Pilot</div>
               </div>
             </div>
@@ -67,7 +66,7 @@ const AlphaPartnersContent = () => {
                       <IconCheck className="h-5 w-5 text-gray-500 group-hover:text-white transition-colors" />
                     </div>
                     <div>
-                      <h4 className="text-lg font-light text-white mb-2">Product Influence</h4>
+                      <h4 className="text-lg font-light text-white mb-2">Strategic Co-Creation</h4>
                       <p className="text-base font-light text-gray-500 leading-relaxed">
                         Direct input on fleet dashboard features, route planning, and reporting tools.
                       </p>
@@ -182,30 +181,28 @@ const AlphaPartnersContent = () => {
               <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-400 mb-8">
                 Why Now
               </span>
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-gray-900 leading-[1.1] mb-12">
-                The window<br />closes in 2025
+              <h2 className="text-4xl md:text-5xl lg:text-5xl font-light tracking-tight text-gray-900 leading-[1.1] mb-12">
+                Your First-Mover Advantage Won't Last.
               </h2>
             </div>
 
             <div className="space-y-16">
               <div>
                 <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-6">
-                  Government Mandates
+                  Capitalize on Explosive, Policy-Driven Growth
                 </h3>
                 <p className="text-lg font-light text-gray-700 leading-relaxed mb-4">
-                  EVIDA requires government and private fleets to have minimum 5% EV share. 
-                  Early adopters will secure supply and build expertise while others scramble to comply.
+                  Shape the platform to serve your exact needs from the start and secure your spot as a preferred destination for the first major wave of EV fleets.
                 </p>
                 <div className="h-px bg-gray-200" />
               </div>
 
               <div>
                 <h3 className="text-2xl md:text-3xl font-light text-gray-900 mb-6">
-                  Financial Incentives
+                  Founding member
                 </h3>
                 <p className="text-lg font-light text-gray-700 leading-relaxed mb-4">
-                  Zero excise tax, discounted registration, and preferential financing. 
-                  Your transition is fully subsidized by the government.
+                  Become a founding member of the definitive solution. For hosts, get promoted to locked-in fleets. For fleets, get guaranteed, software-optimized access to essential charging partners.
                 </p>
                 <div className="h-px bg-gray-200" />
               </div>
@@ -215,8 +212,7 @@ const AlphaPartnersContent = () => {
                   Competitive Advantage
                 </h3>
                 <p className="text-lg font-light text-gray-700 leading-relaxed mb-4">
-                  Companies that act now will leverage government incentives to build an unassailable cost advantage. 
-                  Those who wait will face a costly catch-up game.
+                  Secure lifetime or long-term preferential rates. These exclusive economics are only available to Alpha Partners and are not guaranteed for later joiners.
                 </p>
                 <div className="h-px bg-gray-200" />
               </div>
