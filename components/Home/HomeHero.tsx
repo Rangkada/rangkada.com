@@ -19,7 +19,7 @@ const HomeHero = () => {
       {/* Background Image - Desktop */}
       <div className="block absolute inset-0">
         <Image
-          src="/images/backgrounds/green-landscape-and-truck.jpg"
+          src="/images/backgrounds/highway-vehicles.jpg"
           alt="Electric Vehicle"
           fill
           style={{ objectFit: 'cover', objectPosition: 'center top' }}
@@ -27,7 +27,7 @@ const HomeHero = () => {
           priority
           quality={100}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-black/35 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black  to-black/20" />
       </div>
 
       {/* Content Container */}
@@ -39,7 +39,7 @@ const HomeHero = () => {
               {/* Badge */}
               <div className="mb-10">
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-500">
-                  Electric Vehicle Ecosystem
+                  Charging Network for EV Fleets
                 </span>
               </div>
 
@@ -54,7 +54,7 @@ const HomeHero = () => {
 
               {/* Subheadline */}
               <p className="mb-12 text-xl md:text-2xl font-light text-gray-400 leading-relaxed max-w-xl">
-                Uniting vehicles, chargers, and data into one intelligent operating system.
+                Connecting vehicles, chargers, and data into one intelligent operating system
               </p>
 
               {/* CTA */}

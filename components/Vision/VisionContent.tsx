@@ -11,19 +11,21 @@ const VisionContent = () => {
       <section className="bg-white py-24 md:py-32 lg:py-40">
         <div className="container">
           <div className="mx-auto max-w-6xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+            <div className="">
               <div>
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-400 mb-8">
                   The Mission
                 </span>
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-gray-900 leading-[1.1]">
-                  Building a<br />movement
+                  Building a movement
                 </h2>
               </div>
+              <br />
               <div className="flex items-center">
                 <p className="text-xl md:text-2xl font-light text-gray-700 leading-relaxed">
-                  We're not just building electric vehicles—we're building a movement that will transform how Filipinos move, 
-                  work, and thrive. Our vision is to make the Philippines a leader in sustainable transportation.
+                  Our goal is to build the intelligent, sustainable nervous system for Philippine progress—where smart mobility is the lifeblood of every community, unlocking economic potential and connecting people to opportunity.
+                  <br /><br />
+                   We aim to accelerate the adoption of electric mobility by intelligently connecting fleet operators and charging infrastructure through a unified, hardware-agnostic software platform, eliminating fragmentation and powering efficient, sustainable transportation.
                 </p>
               </div>
             </div>

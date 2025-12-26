@@ -22,47 +22,7 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
       id="vision-teaser" 
       className={`relative ${isDark ? 'bg-black' : 'bg-white'} overflow-hidden`}
     >
-      {/* Hero Image Section */}
-      <div className="relative h-[600px] md:h-[700px] lg:h-[800px]">
-        <Image
-          src="/images/backgrounds/green-landscape-and-truck.jpg"
-          alt="Rangkada Vision"
-          fill
-          className="object-cover object-center"
-          quality={100}
-          priority={false}
-        />
-        {/* Gradient Overlay */}
-        <div className={`absolute inset-0 ${
-          isDark 
-            ? 'bg-gradient-to-t from-black via-black/40 to-transparent' 
-            : 'bg-gradient-to-t from-white via-white/40 to-transparent'
-        }`} />
-        
-        {/* Content Overlay */}
-        <div className="absolute inset-0 flex items-end">
-          <div className="container pb-16 md:pb-20 lg:pb-24">
-            <div className="max-w-4xl">
-              {/* Badge */}
-              <div className="mb-6">
-                <span className={`inline-block text-xs tracking-[0.3em] uppercase font-semibold ${
-                  isDark ? 'text-gray-400' : 'text-gray-600'
-                }`}>
-                  Our Vision
-                </span>
-              </div>
-              
-              {/* Headline */}
-              <h2 className={`mb-8 text-4xl md:text-6xl lg:text-7xl font-light tracking-tight ${
-                isDark ? 'text-white' : 'text-gray-900'
-              } leading-[1.1]`}>
-                Making clean mobility<br />
-                <span className="font-normal">affordable for every Filipino.</span>
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Content Section */}
       <div className={`${isDark ? 'bg-black' : 'bg-white'} py-20 md:py-28 lg:py-32`}>
@@ -72,11 +32,10 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center mb-20">
               {/* Left - Description */}
               <div>
-                <p className={`text-xl md:text-2xl lg:text-3xl font-light leading-relaxed ${
+                <p className={`text-xl md:text-2xl lg:text-2xl font-light leading-relaxed ${
                   isDark ? 'text-gray-300' : 'text-gray-700'
                 }`}>
-                  Building a Philippines where clean, affordable transportation empowers businesses, 
-                  enriches communities, and creates a sustainable legacy for generations.
+                  Accelerate the adoption of electric mobility by intelligently connecting fleet operators and charging infrastructure through a unified, hardware-agnostic software platform, eliminating fragmentation and powering efficient, sustainable transportation.
                 </p>
               </div>
 
@@ -158,6 +117,48 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
           </div>
         </div>
       </div>
+
+      {/* Hero Image Section */}
+      <div className="relative h-[600px] md:h-[700px] lg:h-[800px]">
+        <Image
+          src="/images/backgrounds/green-landscape-and-truck.jpg"
+          alt="Rangkada Vision"
+          fill
+          className="object-cover object-center"
+          quality={100}
+          priority={false}
+        />
+        {/* Gradient Overlay */}
+        <div className={`absolute inset-0 ${
+          isDark 
+            ? 'bg-gradient-to-t from-black via-black/40 to-transparent' 
+            : 'bg-gradient-to-t from-black via-black/40 to-transparent' 
+        }`} />
+        
+        {/* Content Overlay */}
+        <div className="absolute inset-0 flex items-end">
+          <div className="container pb-16 md:pb-20 lg:pb-24">
+            <div className="max-w-4xl">
+              {/* Badge */}
+              <div className="mb-6">
+                <span className={`inline-block text-xs tracking-[0.3em] uppercase font-semibold ${
+                  isDark ? 'text-gray-400' : 'text-gray-600'
+                }`}>
+                  Our Vision
+                </span>
+              </div>
+              
+              {/* Headline */}
+              <h2 className={`mb-8 text-4xl md:text-6xl lg:text-4xl font-light ${
+                isDark ? 'text-white' : 'text-white'
+              } leading-[1.1]`}>
+                A future where intelligent, sustainable mobility unlocks human potential, powers equitable growth, and connects every community, starting in the Philippines.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
   );
 };

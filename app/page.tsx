@@ -44,10 +44,10 @@ export default async function Home() {
       <SolutionsTeaser theme="light" />
       <AlphaPartnersTeaser />
       <VisionTeaser theme="light" />
-      <AlphaPartnersApplyCTA />
       <div id="contact">
         <TalkToUs />
       </div>
+      <AlphaPartnersApplyCTA />
     </>
   );
 }

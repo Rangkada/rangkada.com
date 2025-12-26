@@ -20,7 +20,7 @@ const VisionHero = () => {
           quality={100}
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-t from-gray-100 via-white/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent" />
         
         {/* Content Overlay */}
         <div className="absolute inset-0 flex items-end">
@@ -28,22 +28,19 @@ const VisionHero = () => {
             <div className="max-w-5xl">
               {/* Badge */}
               <div className="mb-8">
-                <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-200">
+                <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-400">
                   Our Vision
                 </span>
               </div>
               
               {/* Headline */}
-              <h1 className="mb-6 text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-gray-900 leading-[1.05]">
-                Making clean mobility
-                <br />
-                <span className="font-normal">affordable for every Filipino.</span>
+              <h1 className="mb-6 text-4xl md:text-6xl lg:text-7xl font-light text-gray-200 ">
+                A seamlessly connected electric future.
               </h1>
 
               {/* Subheadline */}
-              <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-700 leading-relaxed max-w-3xl">
-                Building a future where the Philippines leads, our people prosper, 
-                and our environment thrives.
+              <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-400 leading-relaxed max-w-3xl">
+                A future where intelligent, sustainable mobility unlocks human potential, powers equitable growth, and connects every community, starting in the Philippines.
               </p>
             </div>
           </div>
