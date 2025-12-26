@@ -91,16 +91,16 @@ const Header = () => {
             <Image
               src={
                 sticky || !isHomePage
-                  ? "/images/logo/RANGKADA-logo-black.svg"
-                  : "/images/logo/RANGKADA-logo-white.svg"
+                  ? "/images/logo/RANGKADA-square-white-bg.png"
+                  : "/images/logo/RANGKADA-square-white-bg.png"
               }
               alt="RANGKADA Logo"
               width={42}
               height={42}
-              className="h-14 w-14 mr-2"
+              className="h-6 w-6 rounded-full"
             />
             <span
-              className={`font-gemunu text-xl tracking-[0.8em] transition-colors ${
+              className={`font-gemunu text-2xl font-semibold tracking-[0.3em] transition-colors ${
                 sticky || !isHomePage
                   ? "text-gray-900 hover:text-gray-600"
                   : "text-white hover:text-gray-300"
