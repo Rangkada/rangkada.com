@@ -17,11 +17,12 @@ const HomeHero = () => {
       className="relative z-10 overflow-hidden bg-black"
     >
       {/* Background Image - Desktop */}
-      <div className="hidden lg:block absolute inset-0">
+      <div className="block absolute inset-0">
         <Image
           src="/images/backgrounds/green-landscape-and-truck.jpg"
           alt="Electric Vehicle"
           fill
+          style={{ objectFit: 'cover', objectPosition: 'center top' }}
           className="opacity-80"
           priority
           quality={100}
@@ -43,18 +44,17 @@ const HomeHero = () => {
               </div>
 
               {/* Headline */}
-              <h1 className="mb-8 text-5xl md:text-3xl lg:text-4xl xl:text-5xl font-light tracking-tight text-white leading-[1.05]">
-                Power your fleet.
+              <h1 className="mb-8 text-5xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
+                Powering the Connected 
                 <br />
-                <span className="font-normal text-gray-400">
-                  Skip the costs.
+                <span className="font-normal ">
+                  Electric Vehicle Ecosystem
                 </span>
               </h1>
 
               {/* Subheadline */}
               <p className="mb-12 text-xl md:text-2xl font-light text-gray-400 leading-relaxed max-w-xl">
-                Pay-as-you-save electric vehicles. Zero upfront investment. 
-                Guaranteed savings from day one.
+                Uniting vehicles, chargers, and data into one intelligent operating system.
               </p>
 
               {/* CTA */}
@@ -66,44 +66,13 @@ const HomeHero = () => {
                   </div>
                 </button>
               </Link>
-
-              {/* Stats */}
-              <div className="mt-16 pt-12 border-t border-gray-800">
-                <div className="grid grid-cols-3 gap-8">
-                  <div>
-                    <div className="text-4xl md:text-5xl font-light text-white mb-2">50%</div>
-                    <div className="text-xs tracking-wide text-gray-600 uppercase">Guaranteed Savings</div>
-                  </div>
-                  <div>
-                    <div className="text-4xl md:text-5xl font-light text-white mb-2">₱0</div>
-                    <div className="text-xs tracking-wide text-gray-600 uppercase">Upfront Investment</div>
-                  </div>
-                  <div>
-                    <div className="text-4xl md:text-5xl font-light text-white mb-2">2025</div>
-                    <div className="text-xs tracking-wide text-gray-600 uppercase">Limited Window</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Column - Mobile Image */}
-            <div className="lg:hidden relative h-[400px] -mx-4">
-              <Image
-                src="/images/hero/motorbike-slick-dark-bg-2.png"
-                alt="Electric Vehicle"
-                fill
-                className="object-cover"
-                style={{ objectPosition: 'calc(50% - 60px) center' }}
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/50" />
             </div>
           </div>
         </div>
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-3 text-gray-600">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden lg:flex flex-col items-center gap-3 text-gray-600">
         <span className="text-xs tracking-[0.3em] uppercase font-semibold">Scroll</span>
         <div className="w-px h-16 bg-gray-800" />
       </div>
