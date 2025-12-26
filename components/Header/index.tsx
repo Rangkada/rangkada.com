@@ -91,7 +91,7 @@ const Header = () => {
             <Image
               src={
                 sticky || !isHomePage
-                  ? "/images/logo/RANGKADA-square-white-bg.png"
+                  ? "/images/logo/RANGKADA-square-black-bg.png"
                   : "/images/logo/RANGKADA-square-white-bg.png"
               }
               alt="RANGKADA Logo"
