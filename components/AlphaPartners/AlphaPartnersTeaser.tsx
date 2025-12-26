@@ -22,10 +22,10 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
       id="alpha-partners-teaser" 
       className={`relative ${isDark ? 'bg-black' : 'bg-white'}`}
     >
-      <div className="container">
+      <div className="">
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[600px] md:min-h-[700px] lg:min-h-[800px]">
           {/* Left Column - Content */}
-          <div className="flex flex-col justify-center py-16 md:py-20 lg:py-24 pr-0 lg:pr-16">
+          <div className="mx-10 xl:mx-20 flex flex-col justify-center py-16 md:py-20 lg:py-24 pr-0 lg:pr-16">
             <div className="max-w-xl">
               {/* Badge */}
               <div className="mb-8">
@@ -37,20 +37,17 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
               </div>
               
               {/* Headline */}
-              <h2 className={`mb-8 text-4xl md:text-5xl lg:text-6xl font-light tracking-tight ${
+              <h2 className={`mb-8 text-4xl md:text-5xl lg:text-5xl font-light tracking-tight ${
                 isDark ? 'text-white' : 'text-gray-900'
               } leading-[1.1]`}>
-                Transform your fleet.
-                <br />
-                <span className="font-normal">Zero investment required.</span>
+                Be part of the Philippine <br /> EV Network
               </h2>
 
               {/* Description */}
               <p className={`text-lg md:text-xl font-light leading-relaxed mb-12 ${
                 isDark ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                50% guaranteed savings. Limited founding partner slots. 
-                Shape the future of Philippine transportation.
+                Join our exclusive Alpha Partner Program. Co-create the network that powers tomorrow's fleets and gain lasting strategic advantages.
               </p>
 
               {/* Benefits List */}
@@ -58,7 +55,7 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
                 <div className="flex items-center gap-4">
                   <div className={`h-px w-8 ${isDark ? 'bg-white' : 'bg-gray-900'}`} />
                   <span className={`text-base font-light ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                    Pay-As-You-Save model
+                    First-Mover Advantage
                   </span>
                 </div>
                 <div className="flex items-center gap-4">
@@ -70,7 +67,7 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
                 <div className="flex items-center gap-4">
                   <div className={`h-px w-8 ${isDark ? 'bg-white' : 'bg-gray-900'}`} />
                   <span className={`text-base font-light ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
-                    EVIDA compliance support
+                    Guaranteed Savings
                   </span>
                 </div>
               </div>
@@ -121,7 +118,7 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
                   <div className="text-xs tracking-wide opacity-70 uppercase">Upfront</div>
                 </div>
                 <div>
-                  <div className="text-3xl md:text-4xl font-light mb-2">3</div>
+                  <div className="text-3xl md:text-4xl font-light mb-2">6</div>
                   <div className="text-xs tracking-wide opacity-70 uppercase">Months</div>
                 </div>
               </div>
