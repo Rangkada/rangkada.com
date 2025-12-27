@@ -100,9 +100,6 @@ const Terms = () => {
                   <span className="font-normal text-gray-900">"Fleet Management Services"</span> includes GPS tracking, battery monitoring, route optimization, and performance analytics provided through the platform.
                 </p>
                 <p>
-                  <span className="font-normal text-gray-900">"Pay-As-You-Save (PAYS)"</span> refers to Rangkada's subscription model where customers pay weekly fees that are guaranteed to be less than their current fuel and maintenance costs.
-                </p>
-                <p>
                   <span className="font-normal text-gray-900">"Vehicles"</span> means the electric tricycles (e-Trikes) and electric motorcycles (e-Motorcycles) provided by Rangkada.
                 </p>
               </div>
@@ -120,10 +117,6 @@ const Terms = () => {
                   Rangkada provides Electric Vehicle Ecosystem enabling businesses to:
                 </p>
                 <ul className="space-y-3 pl-6">
-                  <li className="flex items-start gap-3">
-                    <span className="text-gray-400 mt-2">•</span>
-                    <span>Access electric vehicles (e-Trikes and e-Motorcycles) through a Pay-As-You-Save subscription model</span>
-                  </li>
                   <li className="flex items-start gap-3">
                     <span className="text-gray-400 mt-2">•</span>
                     <span>Utilize comprehensive fleet management tools including real-time GPS tracking and performance analytics</span>
@@ -189,9 +182,6 @@ const Terms = () => {
                 6. Payment Terms
               </h2>
               <div className="space-y-4 text-lg font-light text-gray-600 leading-relaxed">
-                <p>
-                  <span className="font-normal text-gray-900">Pay-As-You-Save Model:</span> You agree to pay weekly subscription fees as specified in your service agreement. These fees are guaranteed to be 50% less than your historical fuel and maintenance costs.
-                </p>
                 <p>
                   <span className="font-normal text-gray-900">Payment Methods:</span> Payments shall be processed through authorized payment gateways. Accepted methods include bank transfers, credit cards, and other approved payment channels.
                 </p>

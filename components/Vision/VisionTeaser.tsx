@@ -29,9 +29,17 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
         <div className="container">
           <div className="max-w-6xl mx-auto">
             {/* Main Content */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center mb-20">
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-10 lg:gap-4 items-center mb-20">
               {/* Left - Description */}
               <div>
+              {/* Badge */}
+              <div className="mb-6">
+                <span className={`inline-block text-xs tracking-[0.3em] uppercase font-semibold ${
+                  isDark ? 'text-gray-400' : 'text-gray-600'
+                }`}>
+                  Our Mission
+                </span>
+              </div>
                 <p className={`text-xl md:text-2xl lg:text-2xl font-light leading-relaxed ${
                   isDark ? 'text-gray-300' : 'text-gray-700'
                 }`}>
@@ -39,23 +47,6 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
                 </p>
               </div>
 
-              {/* Right - CTA */}
-              <div className="flex justify-start lg:justify-end">
-                <Link onClick={handleClickExplore} href="/vision">
-                  <button className={`group inline-flex items-center gap-4 ${
-                    isDark
-                      ? 'text-white hover:text-gray-300'
-                      : 'text-gray-900 hover:text-gray-600'
-                  } transition-all duration-300`}>
-                    <span className="text-lg md:text-xl font-light tracking-wide">Explore Our Vision</span>
-                    <div className={`flex items-center justify-center w-14 h-14 rounded-full border ${
-                      isDark ? 'border-white' : 'border-gray-900'
-                    } group-hover:scale-110 transition-transform duration-300`}>
-                      <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </button>
-                </Link>
-              </div>
             </div>
 
             {/* Divider */}
@@ -149,11 +140,28 @@ const VisionTeaser: React.FC<VisionTeaserProps> = ({ theme = 'light' }) => {
               </div>
               
               {/* Headline */}
-              <h2 className={`mb-8 text-4xl md:text-6xl lg:text-4xl font-light ${
+              <h2 className={`mb-8 text-2xl md:text-6xl lg:text-4xl font-light ${
                 isDark ? 'text-white' : 'text-white'
               } leading-[1.1]`}>
                 A future where intelligent, sustainable mobility unlocks human potential, powers equitable growth, and connects every community, starting in the Philippines.
               </h2>
+              {/* Right - CTA */}
+              <div className="flex justify-start lg:justify-start">
+                <Link onClick={handleClickExplore} href="/vision">
+                  <button className={`group inline-flex items-center gap-4 ${
+                    isDark
+                      ? 'text-white hover:text-gray-300'
+                      : 'text-white hover:text-gray-300'
+                  } transition-all duration-300`}>
+                    <span className="text-md md:text-xl font-light tracking-wide">Read More</span>
+                    <div className={`flex items-center justify-center w-14 h-14 rounded-full border ${
+                      isDark ? 'border-white' : 'border-white'
+                    } group-hover:scale-110 transition-transform duration-300`}>
+                      <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
+                    </div>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

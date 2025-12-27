@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     default: "Rangkada | Electric Vehicle Ecosystem",
     template: "%s | Rangkada"
   },
-  description: "Transform your fleet with Rangkada's Pay-As-You-Save electric vehicles. Zero upfront cost, 50% guaranteed savings on fuel costs.",
+  description: "Powering the Connected EV Ecosystem of the Philippines.",
   openGraph: {
     type: "website",
     locale: "en_PH",

@@ -45,9 +45,8 @@ const HomeHero = () => {
 
               {/* Headline */}
               <h1 className="mb-8 text-5xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
-                Powering the Connected 
-                <br />
-                <span className="font-normal ">
+                Powering the Connected
+                <span className="block font-normal ">
                   Electric Vehicle Ecosystem
                 </span>
               </h1>

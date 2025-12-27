@@ -35,16 +35,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
             <h2 className={`text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-[1.1] mb-8 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              Not just vehicles.
-              <br />
-              <span className={`font-normal ${isDark ? 'text-gray-400' : 'text-gray-600'}`}>
-                A competitive advantage.
-              </span>
+              One Platform, Total Control
             </h2>
             <p className={`text-xl md:text-2xl font-light leading-relaxed max-w-3xl mx-auto ${
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              We eliminate your biggest operational variable—fuel costs—and replace it with predictable, manageable savings.
+              We are the essential software layer—the central operating system—that connects all electric fleet vehicles with all charging infrastructure, regardless of brand.
             </p>
           </div>
 
@@ -62,12 +58,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-xl md:text-2xl font-light mb-3 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Pay-As-You-Save
+                Turnkey Solution
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                50% guaranteed savings from week one
+                We Provide the Complete Charging Ecosystem.
               </p>
             </div>
 
@@ -83,12 +79,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-xl md:text-2xl font-light mb-3 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Data-Driven Vehicles
+                Unify EV Operations
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Engineered for Philippine roads
+                Access every partnered charger through one app
               </p>
             </div>
 
@@ -104,12 +100,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-xl md:text-2xl font-light mb-3 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                PowerSwap Network
+                Maximize Charging Station
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Battery swap in 60 seconds
+                Full Management & Monetization
               </p>
             </div>
 
@@ -125,12 +121,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-xl md:text-2xl font-light mb-3 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                FleetOS Platform
+                Charging Network
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Command your fleet from your phone
+                Connect EV fleet with all charging infrastructure
               </p>
             </div>
           </div>
@@ -144,12 +140,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-2xl md:text-3xl font-light mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Zero upfront investment
+                Built for Scale
               </h3>
               <p className={`text-lg font-light leading-relaxed ${
                 isDark ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                Transform a volatile expense (fuel prices) into a fixed, predictable line item. Simplify your budgeting and protect your margins from global oil shocks.
+                Our API-first architecture ensures robust performance as your fleet and network grow.
               </p>
             </div>
 
@@ -157,12 +153,12 @@ const SolutionsTeaser: React.FC<SolutionsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-2xl md:text-3xl font-light mb-6 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Complete integration
+                Data-Driven Intelligence
               </h3>
               <p className={`text-lg font-light leading-relaxed ${
                 isDark ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                Vehicles, batteries, charging infrastructure, and fleet management software—all in one seamless solution designed for the Philippine market.
+                We transform raw data into actionable insights, helping you optimize routes, energy costs, and asset utilization.
               </p>
             </div>
           </div>

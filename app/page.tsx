@@ -8,12 +8,12 @@ import AlphaPartnersApplyCTA from "@/components/AlphaPartners/AlphaPartnersApply
 import TalkToUs from "@/components/TalkToUs";
 
 export const metadata: Metadata = {
-  title: "Rangkada | Electric Vehicle Ecosystem | Pay-As-You-Save EV",
-  description: "Transform your fleet with Rangkada's Pay-As-You-Save electric vehicles. Zero upfront cost, 50% guaranteed savings, complete fleet solutions for Philippine businesses. E-trikes and e-motorcycles designed for local conditions.",
-  keywords: "electric vehicles Philippines, EV fleet management, Pay-As-You-Save, e-trike, e-motorcycle, commercial EV, fleet electrification, sustainable transportation Philippines, electric tricycle, electric motorcycle",
+  title: "Rangkada | Electric Vehicle Ecosystem",
+  description: "Powering the Connected EV Ecosystem of the Philippines.",
+  keywords: "electric vehicles Philippines, EV fleet management, e-trike, e-motorcycle, commercial EV, fleet electrification, sustainable transportation Philippines, electric tricycle, electric motorcycle",
   openGraph: {
     title: "Rangkada | Electric Vehicle Ecosystem",
-    description: "Zero upfront investment. 50% guaranteed savings. Complete Electric Vehicle Ecosystem designed for the Philippine market.",
+    description: "Powering the Connected EV Ecosystem of the Philippines.",
     type: "website",
     locale: "en_PH",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rangkada | Electric Vehicle Ecosystem",
-    description: "Transform your fleet with Pay-As-You-Save electric vehicles. Zero upfront cost, guaranteed savings from day one.",
+    description: "Powering the Connected EV Ecosystem of the Philippines.",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
 };

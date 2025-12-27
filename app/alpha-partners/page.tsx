@@ -5,11 +5,11 @@ import AlphaPartnersContent from '@/components/AlphaPartners/AlphaPartnersConten
 
 export const metadata: Metadata = {
   title: "Alpha Partners - Join Our Pilot Program",
-  description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Pay-as-you-save model with 50% savings on fuel costs. Zero upfront investment.",
-  keywords: "alpha partners, pilot program, electric fleet, pay-as-you-save, founding partners, EV Philippines, fleet electrification",
+  description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
+  keywords: "alpha partners, pilot program, electric fleet, founding partners, EV Philippines, fleet electrification",
   openGraph: {
     title: "Alpha Partners - Join Our Pilot Program",
-    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Pay-as-you-save model with 50% savings on fuel costs.",
+    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
     type: "website",
     url: "https://rangkada.com/alpha-partners",
     images: [
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Alpha Partners - Join Our Pilot Program",
-    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Pay-as-you-save model with 50% savings on fuel costs.",
+    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
