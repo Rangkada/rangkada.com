@@ -33,11 +33,11 @@ const SolutionsContent = () => {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-light tracking-tight leading-[1.05] mb-10">
+            <h1 className="text-3xl md:text-6xl lg:text-5xl xl:text-6xl font-light tracking-tight leading-[1.05] mb-10">
               Powering Electric Fleet with a Single, Intelligent Network.
             </h1>
 
-            <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-400 leading-relaxed max-w-4xl mb-16">
+            <p className="text-md md:text-2xl lg:text-3xl font-light text-gray-400 leading-relaxed max-w-4xl mb-16">
               Rangkada is the hardware-agnostic software platform that connects your electric vehicles to every charging station, unifying operations, payments, and data into one seamless dashboard.
             </p>
 

@@ -38,13 +38,13 @@ const HomeHero = () => {
             <div className="relative z-20 max-w-2xl">
               {/* Badge */}
               <div className="mb-10">
-                <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-500">
+                <span className="inline-block text-xs tracking-[0.1em] md:tracking-[0.3em] uppercase font-semibold text-gray-500">
                   Charging Network for EV Fleets
                 </span>
               </div>
 
               {/* Headline */}
-              <h1 className="mb-8 text-5xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
+              <h1 className="mb-8 text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
                 Powering the Connected
                 <span className="block font-normal ">
                   Electric Vehicle Ecosystem
@@ -52,15 +52,15 @@ const HomeHero = () => {
               </h1>
 
               {/* Subheadline */}
-              <p className="mb-12 text-xl md:text-2xl font-light text-gray-400 leading-relaxed max-w-xl">
+              <p className="mb-12 text-lg md:text-2xl font-light text-gray-400 md:leading-relaxed max-w-xl">
                 Connecting vehicles, chargers, and data into one intelligent operating system
               </p>
 
               {/* CTA */}
               <Link onClick={handleClickGetStarted} href="#contact">
                 <button className="group inline-flex items-center gap-4 text-white hover:text-gray-300 transition-all duration-300">
-                  <span className="text-lg md:text-xl font-light tracking-wide">🔥 Become an Alpha Partner</span>
-                  <div className="flex items-center justify-center w-14 h-14 rounded-full border border-white group-hover:scale-110 transition-transform duration-300">
+                  <span className="text-xs md:text-xl font-light tracking-wide">🔥 Become an Alpha Partner</span>
+                  <div className="flex items-center justify-center h-8 w-8 md:w-14 md:h-14 rounded-full border border-white group-hover:scale-110 transition-transform duration-300">
                     <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </button>
