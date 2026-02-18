@@ -3,9 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Error Page | Rangkada",
-  description: "This is Error Page for Rangkada",
-  // other metadata
+  title: "Page Not Found",
+  description: "The page you're looking for cannot be found.",
 };
 
 const ErrorPage = () => {

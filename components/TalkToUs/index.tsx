@@ -135,7 +135,7 @@ const TalkToUs = () => {
                 disabled={isSubmitting}
                 className="w-full md:w-auto px-12 py-4 text-lg font-light tracking-wide text-white bg-gray-900 hover:bg-gray-800 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Submitting...' : '🔥 Submit Application'}
+                {isSubmitting ? 'Submitting...' : '🔥 Send Message'}
               </button>
             </div>
 
@@ -155,24 +155,6 @@ const TalkToUs = () => {
               </div>
             )}
           </form>
-
-          {/* Additional Info */}
-          <div className="mt-16 pt-16 border-t border-gray-200">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-              <div>
-                <div className="text-4xl font-light text-gray-900 mb-3">50%</div>
-                <div className="text-sm tracking-wide text-gray-600 uppercase">Guaranteed Savings</div>
-              </div>
-              <div>
-                <div className="text-4xl font-light text-gray-900 mb-3">₱0</div>
-                <div className="text-sm tracking-wide text-gray-600 uppercase">Upfront Cost</div>
-              </div>
-              <div>
-                <div className="text-4xl font-light text-gray-900 mb-3">24h</div>
-                <div className="text-sm tracking-wide text-gray-600 uppercase">Response Time</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

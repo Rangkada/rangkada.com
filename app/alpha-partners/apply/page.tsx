@@ -14,7 +14,7 @@ const AlphaPartnerApply = () => {
     phone: '',
     role: '',
     companyName: '',
-    country: 'Philippines',
+    country: 'United States',
     industry: '',
     fleetSize: '',
     message: ''
@@ -88,12 +88,12 @@ const AlphaPartnerApply = () => {
               Application Submitted
             </h1>
             <p className="text-xl font-light text-gray-600 leading-relaxed mb-12">
-              Thank you for your interest in the Alpha Partners program. We've received your application and will be in touch within 48 hours.
+              Thank you for your interest in partnering with Rangkada. We've received your application and will be in touch within 48 hours to discuss next steps.
             </p>
             <Link href="/alpha-partners">
               <button className="inline-flex items-center gap-3 text-lg font-light text-gray-900 hover:text-gray-600 transition-colors">
                 <IconArrowLeft className="h-5 w-5" />
-                Back to Alpha Partners
+                Back to Partnerships
               </button>
             </Link>
           </div>
@@ -111,12 +111,11 @@ const AlphaPartnerApply = () => {
             
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-gray-900 leading-[1.1] mb-6">
-              Join the Alpha<br />
-              <span className="font-normal">Partners Program</span>
+              Partnership Application
             </h1>
             
             <p className="text-xl font-light text-gray-600 leading-relaxed">
-              Help us build the future of electric mobility in the Philippines. Fill out the form below and we'll be in touch.
+              Join us in building the operations infrastructure for EV charging. Fill out the form below and we'll be in touch within 48 hours.
             </p>
           </div>
 
@@ -230,8 +229,18 @@ const AlphaPartnerApply = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 focus:border-gray-900 focus:outline-none transition-colors font-light bg-white"
                   >
-                    <option value="Philippines">Philippines</option>
+                    <option value="United States">United States</option>
+                    <option value="Canada">Canada</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Netherlands">Netherlands</option>
                     <option value="Singapore">Singapore</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Japan">Japan</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="China">China</option>
+                    <option value="Philippines">Philippines</option>
                     <option value="Malaysia">Malaysia</option>
                     <option value="Indonesia">Indonesia</option>
                     <option value="Thailand">Thailand</option>
@@ -244,7 +253,7 @@ const AlphaPartnerApply = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="industry" className="block text-sm font-light text-gray-700 mb-2">
-                    Industry *
+                    Partnership Type *
                   </label>
                   <select
                     id="industry"
@@ -254,20 +263,20 @@ const AlphaPartnerApply = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 focus:border-gray-900 focus:outline-none transition-colors font-light bg-white"
                   >
-                    <option value="">Select Industry</option>
-                    <option value="Logistics & Delivery">Logistics & Delivery</option>
-                    <option value="Food Delivery">Food Delivery</option>
-                    <option value="E-commerce">E-commerce</option>
-                    <option value="Ride-Hailing">Ride-Hailing</option>
-                    <option value="Manufacturing">Manufacturing</option>
-                    <option value="Retail">Retail</option>
+                    <option value="">Select Partnership Type</option>
+                    <option value="Charging Network Operator">Charging Network Operator</option>
+                    <option value="Hardware Provider">Charger Hardware Provider</option>
+                    <option value="CPMS Platform">CPMS / Software Platform</option>
+                    <option value="Energy Provider">Utility / Energy Provider</option>
+                    <option value="Fleet Operator">Fleet Operator / Site Host</option>
+                    <option value="OEM">OEM / Vehicle Manufacturer</option>
                     <option value="Other">Other</option>
                   </select>
                 </div>
 
                 <div>
                   <label htmlFor="fleetSize" className="block text-sm font-light text-gray-700 mb-2">
-                    Current Fleet Size *
+                    Network Size / Scale *
                   </label>
                   <select
                     id="fleetSize"
@@ -277,12 +286,13 @@ const AlphaPartnerApply = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 border border-gray-300 focus:border-gray-900 focus:outline-none transition-colors font-light bg-white"
                   >
-                    <option value="">Select Fleet Size</option>
-                    <option value="1-10">1-10 vehicles</option>
-                    <option value="11-50">11-50 vehicles</option>
-                    <option value="51-100">51-100 vehicles</option>
-                    <option value="101-500">101-500 vehicles</option>
-                    <option value="500+">500+ vehicles</option>
+                    <option value="">Select Scale</option>
+                    <option value="1-10">1-10 chargers/vehicles</option>
+                    <option value="11-50">11-50 chargers/vehicles</option>
+                    <option value="51-100">51-100 chargers/vehicles</option>
+                    <option value="101-500">101-500 chargers/vehicles</option>
+                    <option value="500+">500+ chargers/vehicles</option>
+                    <option value="N/A">N/A (Technology/Software Partner)</option>
                   </select>
                 </div>
               </div>
@@ -296,7 +306,7 @@ const AlphaPartnerApply = () => {
               
               <div>
                 <label htmlFor="message" className="block text-sm font-light text-gray-700 mb-2">
-                  Tell us about your fleet operations (Optional)
+                  Tell us about your partnership interest (Optional)
                 </label>
                 <textarea
                   id="message"
@@ -305,7 +315,7 @@ const AlphaPartnerApply = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 focus:border-gray-900 focus:outline-none transition-colors font-light resize-none"
-                  placeholder="Tell us about your current fleet, operations, challenges, or why you're interested in the Alpha Partners program..."
+                  placeholder="Tell us about your organization, current operations, partnership goals, or why you're interested in working together..."
                 />
               </div>
             </div>
@@ -324,7 +334,7 @@ const AlphaPartnerApply = () => {
                 disabled={isSubmitting}
                 className="w-full py-4 bg-gray-900 text-white font-light tracking-wide hover:bg-gray-800 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {isSubmitting ? 'Submitting...' : 'Submit Application'}
+                {isSubmitting ? 'Submitting...' : 'Submit Partnership Application'}
               </button>
               
               <p className="text-sm font-light text-gray-500 text-center mt-6">

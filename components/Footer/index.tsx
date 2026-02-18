@@ -37,7 +37,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-base font-light text-gray-400 leading-relaxed mb-8 max-w-sm">
-              Powering the Connected EV Ecosystem of the Philippines.
+              Operations engine for EV charging networks
             </p>
             <div className="flex items-center gap-6">
               <a
@@ -77,6 +77,14 @@ const Footer = () => {
             <ul className="space-y-4">
               <li>
                 <Link
+                  href="/chargeops"
+                  className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
+                >
+                  ChargeOps
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/vision"
                   className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
                 >
@@ -89,14 +97,6 @@ const Footer = () => {
                   className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
                 >
                   Alpha Partners
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/#what-we-do"
-                  className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
-                >
-                  What We Do
                 </Link>
               </li>
             </ul>
@@ -112,7 +112,7 @@ const Footer = () => {
                   href="/alpha-partners/apply"
                   className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
                 >
-                  Apply Now
+                  Partner with Us
                 </Link>
               </li>
               <li>
@@ -155,10 +155,10 @@ const Footer = () => {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm font-light text-gray-500">
-              © {new Date().getFullYear()} Rangkada Pte. Ltd.
+              © {new Date().getFullYear()} Rangkada Energy Pte. Ltd.
             </p>
             <p className="text-sm font-light text-gray-500">
-              Made in the Philippines
+              
             </p>
           </div>
         </div>

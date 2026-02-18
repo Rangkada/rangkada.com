@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Rangkada",
-  description: "Rangkada Terms of Service and Terms of Use for Electric Vehicle Ecosystem",
+  title: "Terms and Conditions",
+  description: "Terms of Service for Rangkada's EV charging operations platform and services",
   openGraph: {
     title: "Terms and Conditions | Rangkada",
-    description: "Rangkada Terms of Service and Terms of Use for Electric Vehicle Ecosystem",
+    description: "Terms of Service for Rangkada's EV charging operations platform and services",
     type: "website",
     url: "https://rangkada.com/terms",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Terms and Conditions | Rangkada",
-    description: "Rangkada Terms of Service and Terms of Use for Electric Vehicle Ecosystem",
+    description: "Terms of Service for Rangkada's EV charging operations platform and services",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {

@@ -95,12 +95,12 @@ const Header = () => {
                   : "/images/logo/RANGKADA-white-bg-round.png"
               }
               alt="RANGKADA Logo"
-              width={42}
-              height={42}
-              className="h-7 w-7 rounded-full"
+              width={38}
+              height={38}
+              className="h-6 w-6 rounded-full"
             />
             <span
-              className={`font-gemunu text-2xl font-semibold tracking-[0.3em] transition-colors ${
+              className={`font-gemunu text-2xl  tracking-[0.3em] transition-colors ${
                 sticky || !isHomePage
                   ? "text-gray-900 hover:text-gray-600"
                   : "text-white hover:text-gray-300"
@@ -140,7 +140,7 @@ const Header = () => {
                 handleClickJoinAlpha();
                 handleHashNavigation(e, "/alpha-partners/apply");
               }}
-              href="/alpha-partners/apply"
+              href="#contact"
               className={`group inline-flex items-center gap-3 px-6 py-3 transition-all duration-300 ${
                 sticky || !isHomePage
                   ? "bg-gray-900 hover:bg-gray-800"
@@ -154,7 +154,7 @@ const Header = () => {
                     : "text-gray-900"
                 }`}
               >
-                Join Alpha Program
+                Talk to Us
               </span>
               <IconArrowRight
                 className={`h-4 w-4 transition-transform group-hover:translate-x-1 ${
@@ -217,12 +217,12 @@ const Header = () => {
               <Link
                 onClick={(e) => {
                   handleClickJoinAlpha();
-                  handleHashNavigation(e, "/alpha-partners/apply");
+                  handleHashNavigation(e, "/#contact");
                 }}
                 href="/alpha-partners"
                 className="inline-flex items-center gap-3 text-base font-light text-gray-900 hover:text-gray-600 transition-colors"
               >
-                <span>Join Alpha Program</span>
+                <span>Talk to Us</span>
                 <IconArrowRight className="h-4 w-4" />
               </Link>
             </li>

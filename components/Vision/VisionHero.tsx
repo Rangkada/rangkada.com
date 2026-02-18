@@ -35,12 +35,12 @@ const VisionHero = () => {
               
               {/* Headline */}
               <h1 className="mb-6 text-4xl md:text-6xl lg:text-7xl font-light text-gray-200 ">
-                A seamlessly connected electric future.
+                Intelligent Orchestration for Distributed Energy
               </h1>
 
               {/* Subheadline */}
               <p className="text-xl md:text-2xl lg:text-3xl font-light text-gray-400 leading-relaxed max-w-3xl">
-                A future where intelligent, sustainable mobility unlocks human potential, powers equitable growth, and connects every community, starting in the Philippines.
+                Today we solve charging operations. Tomorrow we orchestrate solar, storage, chargers, and grid connections into a unified, profitable energy system.
               </p>
             </div>
           </div>

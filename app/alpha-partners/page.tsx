@@ -4,12 +4,12 @@ import AlphaPartnersContent from '@/components/AlphaPartners/AlphaPartnersConten
 // import AlphaPartnersApplyCTA from '@/components/AlphaPartners/AlphaPartnersApplyCTA';
 
 export const metadata: Metadata = {
-  title: "Alpha Partners - Join Our Pilot Program",
-  description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
-  keywords: "alpha partners, pilot program, electric fleet, founding partners, EV Philippines, fleet electrification",
+  title: "Partnerships - Build the EV Operations Network | Rangkada",
+  description: "Partner with Rangkada to build the operations infrastructure for EV charging. For charging networks, hardware providers, energy companies, and technology partners.",
+  keywords: "EV partnerships, charging network partners, hardware integration, energy providers, CPMS integration, OCPP partners",
   openGraph: {
-    title: "Alpha Partners - Join Our Pilot Program",
-    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
+    title: "Partnerships - Build the EV Operations Network | Rangkada",
+    description: "Partner with Rangkada to build the operations infrastructure for EV charging. For charging networks, hardware providers, energy companies, and technology partners.",
     type: "website",
     url: "https://rangkada.com/alpha-partners",
     images: [
@@ -17,14 +17,14 @@ export const metadata: Metadata = {
         url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
-        alt: "Rangkada Alpha Partners Program",
+        alt: "Rangkada Partnerships",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alpha Partners - Join Our Pilot Program",
-    description: "Become a founding partner and revolutionize your fleet with Rangkada's electric vehicles. Powering the Connected EV Ecosystem of the Philippines.",
+    title: "Partnerships - Build the EV Operations Network | Rangkada",
+    description: "Partner with Rangkada to build the operations infrastructure for EV charging.",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {

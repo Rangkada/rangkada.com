@@ -22,13 +22,13 @@ const gemunuLibre = Gemunu_Libre({
 export const metadata: Metadata = {
   metadataBase: new URL('https://rangkada.com'),
   title: {
-    default: "Rangkada | Electric Vehicle Ecosystem",
+    default: "Rangkada | Operations Engine for EV Charging Networks",
     template: "%s | Rangkada"
   },
-  description: "Powering the Connected EV Ecosystem of the Philippines.",
+  description: "Operations engine that keeps EV charging networks reliable and profitable. 95%+ uptime, 15-25% cost reduction through intelligent monitoring and optimization.",
   openGraph: {
     type: "website",
-    locale: "en_PH",
+    locale: "en_US",
     url: "https://rangkada.com",
     siteName: "Rangkada",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/images/logo/RANGKADA-text-horizontal.png",
         width: 1200,
         height: 630,
-        alt: "Rangkada - Electric Vehicle Ecosystem",
+        alt: "Rangkada - Operations Engine for EV Charging Networks",
       },
     ],
   },

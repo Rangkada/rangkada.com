@@ -3,8 +3,8 @@ import { Menu } from "@/types/menu";
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Solutions",
-    path: "/solutions",
+    title: "ChargeOps",
+    path: "/chargeops",
     newTab: false,
   },
   {
@@ -19,11 +19,13 @@ const menuData: Menu[] = [
     path: "/vision",
     newTab: false,
   },
+  /*
   {
     id: 4,
     title: "Talk to us",
     path: "/#contact",
     newTab: false,
   },
+  */
 ];
 export default menuData;

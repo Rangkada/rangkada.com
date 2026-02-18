@@ -36,29 +36,29 @@ const AlphaPartnersHero = () => {
               {/* Badge */}
               <div className="mb-8">
                 <span className="inline-block text-xs tracking-[0.3em] uppercase font-semibold text-gray-400">
-                  Alpha Partners Program
+                  Partnership Program
                 </span>
               </div>
               
               {/* Headline */}
               <h1 className="mb-6 text-4xl md:text-7xl lg:text-6xl font-light tracking-tight text-white leading-[1.05]">
-                Be part of the EV Network.
+                Build the Operations Infrastructure
                 <br />
-                <span className="font-semibold">Shape the Future. Reap the Rewards.</span>
+                <span className="font-normal">for EV Charging</span>
               </h1>
 
               {/* Subheadline */}
               <p className="text-md md:text-2xl lg:text-3xl font-light text-gray-300 leading-relaxed max-w-3xl mb-12">
-                Exclusive for visionary fleet operators and charging station hosts who want to co-create the future of electric mobility.
+                Partner with us to create the operations layer that connects charging networks, hardware providers, energy companies, and fleet operators.
               </p>
 
               {/* CTA */}
               <Link onClick={handleClickApply} href="/alpha-partners/apply">
-                <button className="group relative inline-flex items-center gap-3 bg-primary hover:bg-primary/90 text-white font-semibold text-xs md:text-xl px-8 md:px-10 py-5 md:py-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-primary/50">
-                  <span>🔥 Join Our Alpha Partner Program</span>
-                  <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
-                  {/* Animated pulse effect */}
-                  <span className="absolute inset-0 rounded-full bg-primary animate-ping opacity-20"></span>
+                <button className="group inline-flex items-center gap-4 text-white hover:text-gray-300 transition-all duration-300">
+                  <span className="text-lg md:text-xl font-light tracking-wide">Explore Partnership</span>
+                  <div className="flex items-center justify-center w-14 h-14 rounded-full border border-white group-hover:scale-110 transition-transform duration-300">
+                    <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
+                  </div>
                 </button>
               </Link>
             </div>

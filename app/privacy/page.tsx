@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Rangkada",
-  description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
+  title: "Privacy Policy",
+  description: "Privacy Policy for Rangkada's EV charging operations platform and services",
   openGraph: {
     title: "Privacy Policy | Rangkada",
-    description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
+    description: "Privacy Policy for Rangkada's EV charging operations platform and services",
     type: "website",
     url: "https://rangkada.com/privacy",
     images: [
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Privacy Policy | Rangkada",
-    description: "Rangkada Privacy Policy for Electric Vehicle Ecosystem",
+    description: "Privacy Policy for Rangkada's EV charging operations platform and services",
     images: ["/images/logo/RANGKADA-text-horizontal.png"],
   },
   alternates: {
