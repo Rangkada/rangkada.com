@@ -47,7 +47,7 @@ const AlphaPartnersTeaser: React.FC<AlphaPartnersTeaserProps> = ({ theme = 'dark
               <p className={`text-lg md:text-xl font-light leading-relaxed mb-12 ${
                 isDark ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                Partner with us to create the operations layer for EV charging. For networks, hardware providers, energy companies, and fleet operators.
+                Partner with us to create the intelligent operations layer for EV charging. For networks, hardware providers, energy companies, and fleet operators.
               </p>
 
               {/* Partner Types List */}

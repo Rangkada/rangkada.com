@@ -49,7 +49,7 @@ const AlphaPartnersHero = () => {
 
               {/* Subheadline */}
               <p className="text-md md:text-2xl lg:text-3xl font-light text-gray-300 leading-relaxed max-w-3xl mb-12">
-                Partner with us to create the operations layer that connects charging networks, hardware providers, energy companies, and fleet operators.
+                Partner with us to create the intelligent operations layer that connects charging networks, hardware providers, energy companies, and fleet operators.
               </p>
 
               {/* CTA */}

@@ -21,7 +21,7 @@ const AlphaPartnersApplyCTA = () => {
               Build the Future<br />of EV Operations
             </h2>
             <p className="text-xl md:text-2xl font-light text-gray-400 leading-relaxed mb-16">
-              Partner with us to create the operations infrastructure for EV charging. Early partners shape the platform and capture market share.
+              Partner with us to create the intelligent operations infrastructure for EV charging. Early partners shape the platform and capture market share.
             </p>
 
             {/* Partnership Types */}
