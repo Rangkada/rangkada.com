@@ -48,7 +48,7 @@ const HomeHero = () => {
       {/* Content Container */}
       <div className="relative min-h-screen flex items-center">
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 py-32 md:py-40 lg:py-48">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-18 py-32 md:py-40 lg:py-48">
             {/* Left Column - Content */}
             <div className="relative z-20 max-w-2xl">
               {/* Badge */}
@@ -60,18 +60,20 @@ const HomeHero = () => {
 
               {/* Headline */}
               <h1 className="mb-8 text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
-                Operations engine for EV charging networks
+                {/* Operations engine for EV charging networks */}
+                Guaranteed 95%+ charger uptime for your electric fleet
               </h1>
 
               {/* Subheadline */}
-              <p className="mb-12 text-lg md:text-2xl font-light text-gray-300 md:leading-relaxed max-w-xl">
-                Automated operations that deliver 95%+ uptime and 15-25% cost reduction
+              <p className="mb-12 text-lg md:text-xl font-light text-gray-300 md:leading-relaxed max-w-xl">
+                {/* Automated operations that deliver 95%+ uptime and 15-25% cost reduction */}
+                We build and operate reliable charging for commercial EV fleets. You pay a monthly fee per electric vehicle. We deliver uptime, energy savings, and peace of mind.
               </p>
 
               {/* CTA */}
               <Link onClick={handleClickGetStarted} href="#contact">
                 <button className="group inline-flex items-center gap-4 text-white hover:text-gray-300 transition-all duration-300">
-                  <span className="text-xs md:text-xl font-light tracking-wide">🔥 Schedule Assessment</span>
+                  <span className="text-xs md:text-xl font-light tracking-wide">🔥 Talk to our team</span>
                   <div className="flex items-center justify-center h-8 w-8 md:w-14 md:h-14 rounded-full border border-white group-hover:scale-110 transition-transform duration-300">
                     <IconArrowRight className="h-6 w-6 group-hover:translate-x-1 transition-transform" />
                   </div>
