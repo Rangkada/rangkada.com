@@ -3,22 +3,22 @@
 import React from "react";
 import Link from "next/link";
 import { sendGAEvent } from "@next/third-parties/google";
-import { IconArrowRight, IconPlug, IconBolt, IconCpu, IconChartBar } from "@tabler/icons-react";
+import { IconArrowRight, IconTruck, IconBolt, IconCpu, IconTool } from "@tabler/icons-react";
 
-interface ChargeOpsTeaserProps {
+interface FleetElectrificationTeaserProps {
   theme?: 'dark' | 'light';
 }
 
-const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => {
+const FleetElectrificationTeaser: React.FC<FleetElectrificationTeaserProps> = ({ theme = 'light' }) => {
   const handleClickExplore = () => {
-    sendGAEvent('event', 'button_click', { value: 'ChargeOps Teaser - Learn More' });
+    sendGAEvent('event', 'button_click', { value: 'Fleet Electrification Teaser - Learn More' });
   };
 
   const isDark = theme === 'dark';
 
   return (
     <section 
-      id="chargeops-teaser" 
+      id="fleet-electrification-teaser" 
       className={`relative ${isDark ? 'bg-black' : 'bg-white'} py-24 md:py-32 lg:py-40`}
     >
       <div className="container">
@@ -29,18 +29,18 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <span className={`inline-block text-xs tracking-[0.3em] uppercase font-semibold ${
                 isDark ? 'text-gray-500' : 'text-gray-400'
               }`}>
-                Our Technology
+                Fleet Service
               </span>
             </div>
             <h2 className={`text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-[1.1] mb-8 ${
               isDark ? 'text-white' : 'text-gray-900'
             }`}>
-              Intelligent Operations Layer
+              Fleet Electrification Made Simple
             </h2>
             <p className={`text-xl md:text-2xl font-light leading-relaxed max-w-3xl mx-auto ${
               isDark ? 'text-gray-400' : 'text-gray-600'
             }`}>
-              Connects to your existing systems. Monitors continuously. Resolves issues automatically.
+              Asset-light, outcome-based charging. No upfront CapEx. 95%+ uptime guaranteed.
             </p>
           </div>
 
@@ -49,7 +49,7 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
             {/* Feature 1 */}
             <div className="group">
               <div className="mb-6 flex justify-start">
-                <IconPlug className={`h-12 w-12 transition-colors ${
+                <IconTruck className={`h-12 w-12 transition-colors ${
                   isDark 
                     ? 'text-gray-600 group-hover:text-white' 
                     : 'text-gray-400 group-hover:text-gray-900'
@@ -58,16 +58,37 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-2xl md:text-3xl font-light mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Continuous Monitoring
+                We Lease the Chargers
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                24/7 monitoring of every charger. Anomaly detection flags issues before they cause downtime. Baseline behavior established for predictive maintenance.
+                Partner with OEMs for 12-month operating leases. No upfront CapEx. Flexible scaling as your fleet grows.
               </p>
             </div>
 
             {/* Feature 2 */}
+            <div className="group">
+              <div className="mb-6 flex justify-start">
+                <IconTool className={`h-12 w-12 transition-colors ${
+                  isDark 
+                    ? 'text-gray-600 group-hover:text-white' 
+                    : 'text-gray-400 group-hover:text-gray-900'
+                }`} />
+              </div>
+              <h3 className={`text-2xl md:text-3xl font-light mb-4 ${
+                isDark ? 'text-white' : 'text-gray-900'
+              }`}>
+                We Install & Maintain
+              </h3>
+              <p className={`text-base font-light leading-relaxed ${
+                isDark ? 'text-gray-500' : 'text-gray-600'
+              }`}>
+                Field service partner handles installation and maintenance. Preventive wear part replacement every 6 months.
+              </p>
+            </div>
+
+            {/* Feature 3 */}
             <div className="group">
               <div className="mb-6 flex justify-start">
                 <IconCpu className={`h-12 w-12 transition-colors ${
@@ -79,16 +100,16 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-2xl md:text-3xl font-light mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Automated Resolution
+                AI Platform Monitors 24/7
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                90% of failures resolved remotely. Root cause classification triggers appropriate response. Hardware issues get coordinated technician dispatch.
+                Real-time monitoring detects faults automatically. Remote remediation before issues impact your fleet.
               </p>
             </div>
 
-            {/* Feature 3 */}
+            {/* Feature 4 */}
             <div className="group">
               <div className="mb-6 flex justify-start">
                 <IconBolt className={`h-12 w-12 transition-colors ${
@@ -100,33 +121,12 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <h3 className={`text-2xl md:text-3xl font-light mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                Energy Optimization
+                Predictable Costs
               </h3>
               <p className={`text-base font-light leading-relaxed ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Real-time demand charge prevention. Automatic load shifting to low-price windows. Predictable monthly costs without manual intervention.
-              </p>
-            </div>
-
-            {/* Feature 4 */}
-            <div className="group">
-              <div className="mb-6 flex justify-start">
-                <IconChartBar className={`h-12 w-12 transition-colors ${
-                  isDark 
-                    ? 'text-gray-600 group-hover:text-white' 
-                    : 'text-gray-400 group-hover:text-gray-900'
-                }`} />
-              </div>
-              <h3 className={`text-2xl md:text-3xl font-light mb-4 ${
-                isDark ? 'text-white' : 'text-gray-900'
-              }`}>
-                System Integration
-              </h3>
-              <p className={`text-base font-light leading-relaxed ${
-                isDark ? 'text-gray-500' : 'text-gray-600'
-              }`}>
-                Connects to existing CPMS, OCPP logs, utility meters, and hardware APIs. No migration required. Unified operational view across all systems.
+                Monthly per-vehicle pricing. No surprises. Share energy savings above baseline (15-30% typical reduction).
               </p>
             </div>
           </div>
@@ -145,7 +145,7 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <p className={`text-base font-light ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Charger Uptime
+                Uptime Guarantee
               </p>
             </div>
 
@@ -153,12 +153,12 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <div className={`text-5xl md:text-6xl font-light mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                15-25%
+                No CapEx
               </div>
               <p className={`text-base font-light ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Cost Reduction
+                Asset-Light Model
               </p>
             </div>
 
@@ -166,19 +166,19 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
               <div className={`text-5xl md:text-6xl font-light mb-4 ${
                 isDark ? 'text-white' : 'text-gray-900'
               }`}>
-                90%
+                15-30%
               </div>
               <p className={`text-base font-light ${
                 isDark ? 'text-gray-500' : 'text-gray-600'
               }`}>
-                Remote Resolution
+                Energy Savings
               </p>
             </div>
           </div>
 
           {/* CTA */}
           <div className="text-center">
-            <Link onClick={handleClickExplore} href="/chargeops">
+            <Link onClick={handleClickExplore} href="/fleet-electrification">
               <button className={`group inline-flex items-center gap-4 transition-all duration-300 ${
                 isDark
                   ? 'text-white hover:text-gray-300'
@@ -201,4 +201,4 @@ const ChargeOpsTeaser: React.FC<ChargeOpsTeaserProps> = ({ theme = 'dark' }) => 
   );
 };
 
-export default ChargeOpsTeaser;
+export default FleetElectrificationTeaser;

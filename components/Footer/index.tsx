@@ -80,7 +80,7 @@ const Footer = () => {
                   href="/chargeops"
                   className="text-base font-light text-gray-400 hover:text-white transition-colors duration-300"
                 >
-                  ChargeOps
+                  Charge OS
                 </Link>
               </li>
               <li>

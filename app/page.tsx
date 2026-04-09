@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import ScrollUp from "@/components/Common/ScrollUp";
 import HomeHero from "@/components/Home/HomeHero";
 import ServiceOverview from "@/components/Home/ServiceOverview";
+import FleetElectrificationTeaser from "@/components/FleetElectrification/FleetElectrificationTeaser";
 import AlphaPartnersTeaser from '@/components/AlphaPartners/AlphaPartnersTeaser';
 import TechnologyTeaser from '@/components/Technology/TechnologyTeaser';
 import ChargeOpsTeaser from '@/app/chargeops/ChargeOpsTeaser';
@@ -44,6 +45,7 @@ export default async function Home() {
       <HomeHero />
       <ChargeOpsTeaser theme="light" />
       <ServiceOverview />
+      <FleetElectrificationTeaser theme="light" />
       <AlphaPartnersTeaser />
       <TechnologyTeaser theme="light" />
       <AlphaPartnersApplyCTA />

@@ -23,14 +23,14 @@ const ChargeOpsContent = () => {
       {/* Hero Section */}
       <section className="bg-black text-white min-h-screen flex items-center py-32 md:py-40 lg:py-48">
         <Image
-          src="/images/backgrounds/ev-charging-2.jpg"
+          src="/images/sections/screenshot-chargers-1.png"
           alt="ChargeOps Operations Engine"
           fill
           className="object-cover object-center"
           quality={100}
           priority={false}
         />
-        <div className={`absolute inset-0 bg-gradient-to-r from-black via-black/80 to-transparent`} />
+        <div className={`absolute inset-0 bg-gradient-to-r from-black via-black/90 to-transparent`} />
 
         <div className="container absolute inset-0 flex items-end mb-20">
           <div className="max-w-4xl">
@@ -45,7 +45,7 @@ const ChargeOpsContent = () => {
             </h1>
 
             <p className="text-md md:text-2xl lg:text-3xl font-light text-gray-400 leading-relaxed max-w-4xl mb-16">
-              Automated monitoring, diagnosis, and resolution. 95%+ uptime. 15-25% cost reduction.
+              Automated monitoring, diagnosis, and resolution.
             </p>
 
             <Link 

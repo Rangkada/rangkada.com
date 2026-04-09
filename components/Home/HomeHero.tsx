@@ -46,7 +46,7 @@ const HomeHero = () => {
       */}
 
       {/* Content Container */}
-      <div className="relative min-h-screen flex items-center">
+      <div className="relative min-h-screen flex items-center mt-10">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-18 py-32 md:py-40 lg:py-48">
             {/* Left Column - Content */}
@@ -59,13 +59,13 @@ const HomeHero = () => {
               </div>
 
               {/* Headline */}
-              <h1 className="mb-8 text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-light  text-white ">
+              <h1 className="mb-8 text-4xl md:text-3xl lg:text-4xl xl:text-5xl font-normal  text-white ">
                 {/* Operations engine for EV charging networks */}
                 Guaranteed 95%+ charger uptime for your electric fleet
               </h1>
 
               {/* Subheadline */}
-              <p className="mb-12 text-lg md:text-xl font-light text-gray-300 md:leading-relaxed max-w-xl">
+              <p className="mb-12 text-lg md:text-lg font-light text-gray-300 md:leading-relaxed max-w-2xl">
                 {/* Automated operations that deliver 95%+ uptime and 15-25% cost reduction */}
                 We build and operate reliable charging for commercial EV fleets. You pay a monthly fee per electric vehicle. We deliver uptime, energy savings, and peace of mind.
               </p>
